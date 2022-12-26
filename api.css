@@ -64,7 +64,7 @@ a {
   }
   
   .One button {
-    border-radius: 25px;
+    border-radius: 50px;
     background-color: #0075BE;
     color:  #FFCC00;
     text-shadow: 0 0 5px #FFCC00;
@@ -80,7 +80,7 @@ a {
     width: 300px;
   }
   .Two button {
-    border-radius: 25px;
+    border-radius: 50px;
     padding: 5px;
     background-color: #0075BE;
     color:  #FFCC00;
