@@ -138,7 +138,7 @@ a {
     height: 50px;
     padding: 5px 15px;
     background-color: var(--red);
-    color:white);
+    color:white;
     font-weight: 600;
   }
   
@@ -169,8 +169,8 @@ a {
     background-color: var(--midnightExpress);
     border: none;
     border-radius: 8px;
-    box-shadow: lightpink :
-    color: lightslategray
+    box-shadow: lightpink; 
+    color: lightgray;
     font-weight: 500;
     font-size: 18px;
     letter-spacing: 1px;
