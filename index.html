@@ -3,22 +3,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>API</title>
+    <link rel="stylesheet" href="api.css">
 </head>
 <body>
-    <h1>Who you looking for?</h1>
-    <input type="text" name="PokemonName" id="Pname">
-    <h1>Data:</h1>
-    <div id="type">
-        <div id="word">
-        </div>
-        
-        <div id="pokemon">
-        </div>
-        
-        <div id="EvoTypes">
-        </div>
-    </div>
-    <script type="module" src="main.js"></script>
+    <h1>Battle</h1>
+
+<div class="main">
+    <div class="One">
+        <button onclick="getOne">Get your first Pokemon</button>
+    <div class="BoxOne"></div>
+</div>
+
+<div class="batl">
+    <button class="batl" id="bl" onclick="duel()">Its time do duel!</button>
+</div>
+
+<div class="result"></div>
+
+    <div class="Two">
+        <button onclick="getTwo">Get your second Pokemon</button>
+    <div class="BoxTwo"></div>
+</div>
+</div>
+
+
+
+<div class="reset">
+    <button  onclick="reset()">Reset</button>
+</div>
+
+    <script src="api.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
