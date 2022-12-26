@@ -56,14 +56,14 @@ a {
     margin-left: 100px;
     color: #D5A100;
   }
-  .pokeOne {
+  .One {
     flex: 50%;
     border: 3px solid red;
     border-radius: 8px;
     width: 300px;
   }
   
-  .pokeOne button {
+  .One button {
     border-radius: 25px;
     background-color: #0075BE;
     color:  #FFCC00;
@@ -73,13 +73,13 @@ a {
     padding: 2px 10px;
     margin-top: 8px;
   }
-  .pokeTwo {
+  .Two {
     flex: 50%;
     border: 3px solid #0075BE;
     border-radius: 8px;
     width: 300px;
   }
-  .pokeTwo button {
+  .Two button {
     border-radius: 25px;
     padding: 5px;
     background-color: #0075BE;
@@ -91,13 +91,13 @@ a {
     margin-top: 8px;
   }
   
-  .pokemonOneBox {
+  .BoxOne {
     margin-top: 2rem;
     justify-content: center;
    
   }
   
-  .pokemonOneBox img {
+  .BoxOne img {
     width: 220px;
     background-image: linear-gradient(180deg, #FB1B1B, #000000 50%, #FFFFFF 30%); 
     border-radius: 50%;
@@ -106,15 +106,15 @@ a {
     margin-top: -10px;
   }
   
-  .pokemonOneBox p {
+  .BoxOne p {
     margin-top: 1rem;
   }
   
-  .pokemonTwoBox {
+  .BowTwo {
     margin-top: 2rem;
     justify-content: center;
   }
-  .pokemonTwoBox img {
+  .BoxTwo img {
     width: 220px;
     background-image: linear-gradient(180deg, #FB1B1B, #000000 50%, #FFFFFF 30%);
     border-radius: 50%;
@@ -122,23 +122,23 @@ a {
     margin-top: -10px;
     border: black 3px solid;
   }
-  .pokemonTwoBox p {
+  .BoxTwo p {
     margin-top: 1rem;
   }
   
-  .batBtn {
+  .batl {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px;
   }
-  .battleBtn {
-    border: 2px var(--blueMagenta) solid;
+  .batl {
+    border: 2px var red solid;
     border-radius: 8px;
     height: 50px;
     padding: 5px 15px;
     background-color: var(--red);
-    color: var(--blueMagenta);
+    color:white);
     font-weight: 600;
   }
   
@@ -155,13 +155,13 @@ a {
     text-align: center;
     color: black;
     letter-spacing: 1px;
-    text-shadow: 0px 1.5px 2px rgba(255,204,0,0.79);
+    text-shadow: 0px 1.5px 2px white;
   }
   
   .reset  {
     text-align:center;
   }
-  .reset button {
+  .button {
     margin-top: 10px;
     padding: 5px;
     height: 50px;
