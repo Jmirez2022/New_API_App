@@ -12,7 +12,7 @@ input,
 textarea,
 select,
 button {
-    font: 300 1rem "rob", sans-serif;
+    font: 400 1rem "rob", sans-serif;
 }
 
 button {
@@ -26,14 +26,12 @@ a {
   }
   
   .main {
-    /* width: 80%; */
     margin: 0 auto;
     margin-top: 2rem;
     display: flex;
     width: 900px;
     text-align: center;
     position: relative;
-    /* border: 1px solid #000; */
     height: 500px;
     
   }
@@ -64,7 +62,7 @@ a {
   }
   
   .One button {
-    border-radius: 50px;
+    border-radius: 25px;
     background-color: #0075BE;
     color:  #FFCC00;
     text-shadow: 0 0 5px #FFCC00;
@@ -80,7 +78,7 @@ a {
     width: 300px;
   }
   .Two button {
-    border-radius: 50px;
+    border-radius: 25px;
     padding: 5px;
     background-color: #0075BE;
     color:  #FFCC00;
@@ -126,7 +124,7 @@ a {
     margin-top: 1rem;
   }
   
-  .batl {
+  .duel {
     display: flex;
     align-items: center;
     justify-content: center;

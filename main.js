@@ -8,7 +8,7 @@ window.onload = function () {
 
 const arrOne = () => {
     const random = Math.floor(Math.random() * 905) 
-    fetch(`https://pokeapi.co/api/v2/pokemon/${random1}`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/${random}`) //random1
      .then((res) => res.json())
      .then((array) => {
         One = array
@@ -41,7 +41,7 @@ const arrTwo = () => {
            src="${One.sprites.other["official-artwork"].front_default}"
            alt="${capFirstLetter(One.name)}" />
        </div>
-       <div class="infoOne">
+       <div class="One">
          <h3>${capFirstLetter(One.name)}</h3>
          <p> Id: ${One.id}</p>
          <p>Weight: ${One.weight}</p>
@@ -74,7 +74,7 @@ const arrTwo = () => {
  
 
 
- const battle = () => {
+ const duel = () => {
     const poke1Info = One.stats[1].base_stat;
     const poke2Info = Two.stats[1].base_stat;
     if (poke1Info > poke2Info) {
